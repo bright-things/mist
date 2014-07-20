@@ -8,8 +8,8 @@ CONTIKI_TARGET_SOURCEFILES+=contiki-mist-cc2538dk-main.c
 ifdef IAR
 else
 CONTIKI_TARGET_SOURCEFILES+=flash.c
-#CONTIKI_TARGET_SOURCEFILES+=startup-gcc-mist-cc2538dk.c flash.c
-#TARGET_START_SOURCEFILES = startup-gcc-mist-cc2538dk.c
+CONTIKI_TARGET_SOURCEFILES+=startup-gcc-mist-cc2538dk.c flash.c
+TARGET_START_SOURCEFILES = startup-gcc-mist-cc2538dk.c
 endif
 
 ifdef ID

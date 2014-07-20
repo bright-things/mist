@@ -3,6 +3,7 @@ MIST=../..
 APPS+=slip-bridge ip64-webserver network-reboot simple-udp-ping
 CFLAGS += -DSLIP_ARCH_CONF_ENABLED=1
 CFLAGS += -DSLIP_ARCH_CONF_USB=1
+
 CFLAGS += -DUSB_SERIAL_CONF_ENABLE=1
 
 include $(MIST)/Makefile.mist
