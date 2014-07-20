@@ -51,4 +51,7 @@
 #define WEBSERVER_CONF_CFS_CONNS 2
 #endif
 
+#define SLIP_ARCH_CONF_ENABLED 1
+#define SLIP_ARCH_CONF_USB 1
+
 #endif /* __PROJECT_ROUTER_CONF_H__ */
