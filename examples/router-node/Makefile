@@ -1,6 +1,8 @@
 all: router-node
 MIST=../..
 APPS+=ip64-webserver network-reboot simple-udp-ping
+CFLAGS += -DSLIP_ARCH_CONF_ENABLED=1
+CFLAGS += -DSLIP_ARCH_CONF_USB=1
 
 include $(MIST)/Makefile.mist
 
